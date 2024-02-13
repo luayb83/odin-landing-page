@@ -90,7 +90,7 @@ header {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
+    margin: 0px 200px;
     padding-bottom: 100px;
 }
 
@@ -147,5 +147,38 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 0px 50px;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 30px 100px;
+    border-radius: 15px;
+}
+
+.callToAction .text h2 {
+    font-weight: "extra bold";
+    color: #f9faf8;
+}
+
+.callToAction .text {
+    color: #f9faf8;
+}
+
+.callToAction .button button a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.callToAction .button button {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0.5px solid #f9faf8;
+    padding: 5px 20px;
 }
 
