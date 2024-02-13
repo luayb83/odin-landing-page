@@ -91,12 +91,16 @@ header {
     display: flex;
     flex-direction: column;
     padding: 0px 200px;
+    padding-bottom: 100px;
 }
 
 .info h1 {
     display: flex;
     justify-content: center;
     padding: 20px 0px;
+    font-size: 36px;
+    font-weight: "extra bold";
+    color: #1f2937;
 }
 
 .info .subInfo {
@@ -124,5 +128,24 @@ header {
     flex-basis: 100%;
     margin: 0px 50px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px;
 }
 
