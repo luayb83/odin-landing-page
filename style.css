@@ -87,3 +87,42 @@ header {
     font-weight: bold;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+}
+
+.info h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.info .subInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info .subInfo .image {
+    border: solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.info .subInfo .first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 0px 50px;
+    text-align: center;
+}
+
